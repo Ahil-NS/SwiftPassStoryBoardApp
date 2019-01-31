@@ -7,21 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		66AA6B566235FC4D5BCA47A2 /* Pods_SwiftPassStoryBoardApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 878CC1804DE3605B6C3FE22F /* Pods_SwiftPassStoryBoardApp.framework */; };
 		FA187E20220215FE00F8FD04 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA187E1F220215FE00F8FD04 /* AppDelegate.swift */; };
-		FA187E22220215FE00F8FD04 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA187E21220215FE00F8FD04 /* ViewController.swift */; };
+		FA187E22220215FE00F8FD04 /* MainNetVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA187E21220215FE00F8FD04 /* MainNetVC.swift */; };
 		FA187E25220215FE00F8FD04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA187E23220215FE00F8FD04 /* Main.storyboard */; };
 		FA187E272202160100F8FD04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA187E262202160100F8FD04 /* Assets.xcassets */; };
 		FA187E2A2202160100F8FD04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA187E282202160100F8FD04 /* LaunchScreen.storyboard */; };
+		FACD04E42203A974005F39CE /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACD04E32203A974005F39CE /* Article.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		34DAD2123D1AA16DF5AAF404 /* Pods-SwiftPassStoryBoardApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftPassStoryBoardApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftPassStoryBoardApp/Pods-SwiftPassStoryBoardApp.release.xcconfig"; sourceTree = "<group>"; };
+		878CC1804DE3605B6C3FE22F /* Pods_SwiftPassStoryBoardApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftPassStoryBoardApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA187E1C220215FE00F8FD04 /* SwiftPassStoryBoardApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftPassStoryBoardApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA187E1F220215FE00F8FD04 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FA187E21220215FE00F8FD04 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FA187E21220215FE00F8FD04 /* MainNetVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNetVC.swift; sourceTree = "<group>"; };
 		FA187E24220215FE00F8FD04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FA187E262202160100F8FD04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA187E292202160100F8FD04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA187E2B2202160100F8FD04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FACD04E32203A974005F39CE /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
+		FC7B30375A21E2AAD366AFCE /* Pods-SwiftPassStoryBoardApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftPassStoryBoardApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftPassStoryBoardApp/Pods-SwiftPassStoryBoardApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +35,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66AA6B566235FC4D5BCA47A2 /* Pods_SwiftPassStoryBoardApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0968305D2740A73CE9E90830 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FC7B30375A21E2AAD366AFCE /* Pods-SwiftPassStoryBoardApp.debug.xcconfig */,
+				34DAD2123D1AA16DF5AAF404 /* Pods-SwiftPassStoryBoardApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2198C01AAEA2908CC49CB5EF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				878CC1804DE3605B6C3FE22F /* Pods_SwiftPassStoryBoardApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FA187E13220215FE00F8FD04 = {
 			isa = PBXGroup;
 			children = (
 				FA187E1E220215FE00F8FD04 /* SwiftPassStoryBoardApp */,
 				FA187E1D220215FE00F8FD04 /* Products */,
+				0968305D2740A73CE9E90830 /* Pods */,
+				2198C01AAEA2908CC49CB5EF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +80,47 @@
 		FA187E1E220215FE00F8FD04 /* SwiftPassStoryBoardApp */ = {
 			isa = PBXGroup;
 			children = (
+				FACD04E22203A8CF005F39CE /* Services */,
+				FACD04E12203A8C5005F39CE /* View */,
+				FACD04E02203A8BF005F39CE /* Model */,
+				FACD04DF2203A8B7005F39CE /* Controller */,
 				FA187E1F220215FE00F8FD04 /* AppDelegate.swift */,
-				FA187E21220215FE00F8FD04 /* ViewController.swift */,
+				FA187E21220215FE00F8FD04 /* MainNetVC.swift */,
 				FA187E23220215FE00F8FD04 /* Main.storyboard */,
 				FA187E262202160100F8FD04 /* Assets.xcassets */,
 				FA187E282202160100F8FD04 /* LaunchScreen.storyboard */,
 				FA187E2B2202160100F8FD04 /* Info.plist */,
 			);
 			path = SwiftPassStoryBoardApp;
+			sourceTree = "<group>";
+		};
+		FACD04DF2203A8B7005F39CE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FACD04E02203A8BF005F39CE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FACD04E32203A974005F39CE /* Article.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FACD04E12203A8C5005F39CE /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FACD04E22203A8CF005F39CE /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +130,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FA187E2E2202160100F8FD04 /* Build configuration list for PBXNativeTarget "SwiftPassStoryBoardApp" */;
 			buildPhases = (
+				69B657626CBC770DA4A8671F /* [CP] Check Pods Manifest.lock */,
 				FA187E18220215FE00F8FD04 /* Sources */,
 				FA187E19220215FE00F8FD04 /* Frameworks */,
 				FA187E1A220215FE00F8FD04 /* Resources */,
+				2FF5E9D0B2286893983A9016 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,13 +191,57 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2FF5E9D0B2286893983A9016 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SwiftPassStoryBoardApp/Pods-SwiftPassStoryBoardApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftPassStoryBoardApp/Pods-SwiftPassStoryBoardApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		69B657626CBC770DA4A8671F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftPassStoryBoardApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FA187E18220215FE00F8FD04 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA187E22220215FE00F8FD04 /* ViewController.swift in Sources */,
+				FA187E22220215FE00F8FD04 /* MainNetVC.swift in Sources */,
 				FA187E20220215FE00F8FD04 /* AppDelegate.swift in Sources */,
+				FACD04E42203A974005F39CE /* Article.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +385,7 @@
 		};
 		FA187E2F2202160100F8FD04 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC7B30375A21E2AAD366AFCE /* Pods-SwiftPassStoryBoardApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +404,7 @@
 		};
 		FA187E302202160100F8FD04 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34DAD2123D1AA16DF5AAF404 /* Pods-SwiftPassStoryBoardApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
