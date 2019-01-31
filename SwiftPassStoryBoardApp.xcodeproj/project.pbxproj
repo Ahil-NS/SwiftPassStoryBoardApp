@@ -14,6 +14,8 @@
 		FA187E272202160100F8FD04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA187E262202160100F8FD04 /* Assets.xcassets */; };
 		FA187E2A2202160100F8FD04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA187E282202160100F8FD04 /* LaunchScreen.storyboard */; };
 		FACD04E42203A974005F39CE /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACD04E32203A974005F39CE /* Article.swift */; };
+		FACD04E62203AA45005F39CE /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACD04E52203AA45005F39CE /* DataService.swift */; };
+		FACD04E82203AA82005F39CE /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACD04E72203AA82005F39CE /* Constant.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +29,8 @@
 		FA187E292202160100F8FD04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA187E2B2202160100F8FD04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FACD04E32203A974005F39CE /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
+		FACD04E52203AA45005F39CE /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		FACD04E72203AA82005F39CE /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		FC7B30375A21E2AAD366AFCE /* Pods-SwiftPassStoryBoardApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftPassStoryBoardApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftPassStoryBoardApp/Pods-SwiftPassStoryBoardApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -85,11 +89,11 @@
 				FACD04E02203A8BF005F39CE /* Model */,
 				FACD04DF2203A8B7005F39CE /* Controller */,
 				FA187E1F220215FE00F8FD04 /* AppDelegate.swift */,
-				FA187E21220215FE00F8FD04 /* MainNetVC.swift */,
 				FA187E23220215FE00F8FD04 /* Main.storyboard */,
 				FA187E262202160100F8FD04 /* Assets.xcassets */,
 				FA187E282202160100F8FD04 /* LaunchScreen.storyboard */,
 				FA187E2B2202160100F8FD04 /* Info.plist */,
+				FACD04E72203AA82005F39CE /* Constant.swift */,
 			);
 			path = SwiftPassStoryBoardApp;
 			sourceTree = "<group>";
@@ -97,6 +101,7 @@
 		FACD04DF2203A8B7005F39CE /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				FA187E21220215FE00F8FD04 /* MainNetVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 		FACD04E22203A8CF005F39CE /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				FACD04E52203AA45005F39CE /* DataService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -241,7 +247,9 @@
 			files = (
 				FA187E22220215FE00F8FD04 /* MainNetVC.swift in Sources */,
 				FA187E20220215FE00F8FD04 /* AppDelegate.swift in Sources */,
+				FACD04E82203AA82005F39CE /* Constant.swift in Sources */,
 				FACD04E42203A974005F39CE /* Article.swift in Sources */,
+				FACD04E62203AA45005F39CE /* DataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
